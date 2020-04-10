@@ -13,7 +13,7 @@ Start-Sleep -Seconds 2.0
 [System.Windows.Forms.SendKeys]::SendWait($jj)
 [System.Windows.Forms.SendKeys]::SendWait("^{s}")
 Start-Sleep -Seconds 2.0
-[System.Windows.Forms.SendKeys]::SendWait("READMEE.md")
+[System.Windows.Forms.SendKeys]::SendWait("README.md")
 Start-Sleep -Seconds 2.0
 [System.Windows.Forms.SendKeys]::SendWait("{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}")
 [System.Windows.Forms.SendKeys]::SendWait("~")
