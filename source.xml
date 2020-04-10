@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
 <IDE>
+  <NAME>
+    Atom
+  </NAME>
   <PATH>
     C:\Users\quads\AppData\Local\atom\atom.exe
   </PATH>
