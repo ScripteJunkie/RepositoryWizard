@@ -18,7 +18,7 @@
   ::echo %lloc%
   del /Q /F "%temp%\empty"
   ::set jj = %1
-  set jj = C:\Users\quads\Documents\GitHub\RepositoryWizard
+  set jj = C:\Users\synta\Documents\GitHub\RepositoryWizard
   start %lloc%
   IF /I %2==Atom (
   Powershell.exe -executionpolicy remotesigned -File  %~dp0atom.ps1 "%jj%")
